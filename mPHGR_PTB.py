@@ -209,6 +209,7 @@ for i in range(1, k + 1):
 
 scores_array = np.array(scores).reshape(-1, 1)
 scores_array2 = scores_array / scores_array[0]
-np.savetxt("scores_array_10013.txt", scores_array2, fmt='%.6f')
+np.savetxt("scores_PTB_10013.txt", scores_array2, fmt='%.6f')
 print("Scores_array2 saved to scores_array2.txt")
+
 
