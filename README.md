@@ -19,4 +19,5 @@ Output data: scores_PTB_10013.txt (or score_GC.txt)
 Qiao Wei, Jiayuan Zhong, et al. mPHGR: microbiome personalized hyper-graph ranking for identifying critical states of complex biological processes at an individual level
 ## Contact
 Qiao Wei: scut_wq@163.com
+
 Jiayuan Zhong: Zjiayuan@foshan.edu.cn
