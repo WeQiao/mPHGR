@@ -14,7 +14,8 @@ Convert the original microbial abundance matrix data into a txt file. The rows r
 In the given example, the input data are contained within the folder "PTB10013" or "GC".
 ### Step2. Calculate mPHGR score and identify the pre-disease stage
 Running pipeline: mPHGR_PTB.py (or mPHGR_GC.py), which has been tested in Python 3.8.
-Output data: scores_PTB_10013.txt (or score_GC.txt)
+
+Output data: scores_PTB_10013.txt (or score_GC.txt).
 ## Citation
 Qiao Wei, Jiayuan Zhong, et al. mPHGR: microbiome personalized hyper-graph ranking for identifying critical states of complex biological processes at an individual level
 ## Contact
