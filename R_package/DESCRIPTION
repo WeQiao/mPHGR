@@ -1,0 +1,13 @@
+Package: mPHGR
+Type: Package
+Title: Microbiome Personalized Hyper-Graph Ranking via Python
+Version: 1.0.0
+Authors@R: person(given = "mPHGR", family = "Contributors", email = "scut_wq@163.com", role = c("aut", "cre"))
+Description: Provides a single R function for running the supplied Python
+    microbiome personalized hyper-graph ranking algorithm. Writes Score.csv and d.csv to the specified data folder.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.6.0)
+Imports: reticulate
+SystemRequirements: Python (>= 3.8), numpy, pandas, matplotlib (for mode 2)
+URL: https://github.com/WeQiao/mPHGR
