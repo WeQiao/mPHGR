@@ -1,6 +1,6 @@
 # mPHGR R package (v1.0.0)
 
-The `mPHGR` R package provides one function, `mphgr_run()`, which calls the **unchanged Python mPHGR algorithm** through `reticulate`. It performs no input preprocessing.
+The `mPHGR` R package provides one function, `mphgr_run()`, which calls the **unchanged Python mPHGR algorithm** through `reticulate`.
 
 ## Install
 
@@ -12,7 +12,6 @@ remotes::install_github("WeQiao/mPHGR", subdir = "R_package", ref = "v1.0.0")
 library(mPHGR)
 ```
 
-The `ref = "v1.0.0"` tag is available **only after that GitHub release tag has been created**. Before the release, omit `ref` to install the default branch.
 
 Python >= 3.8 with `numpy`, `pandas`, and `matplotlib` is required:
 
@@ -49,24 +48,11 @@ mphgr_run(
 )
 ```
 
-`d` and `Q` should match the parameters used for the dataset. For mode 2, `stages` contains **file IDs** and the first named stage provides the reference score. The GC-style Python plot is shown for mode 2, with its original title unchanged.
-
 ## Outputs
 
-The algorithm saves **only** `Score.csv` and `d.csv` in `data_dir`. Temporary transition matrices are deleted. The R function returns results invisibly; it does not print numeric scores by default.
+The algorithm saves `Score.csv` and `d.csv` in `data_dir`. Temporary transition matrices are deleted. 
 
-## Reproducible example
-
-A small **synthetic** example is included for reviewers. After installing the package, run:
-
-```r
-source(system.file("examples", "Demo_example.R", package = "mPHGR"))
-```
-
-The example copies artificial inputs to a temporary folder, calls `mphgr_run()` in mode 1, and verifies the two output files. It is only a software demonstration, not a biological validation dataset.
 
 ## Python code
 
 The R package includes `inst/python/mPHGR.py`; it is byte-for-byte identical to `mPHGR.py` at the top level of this distribution. No Python computational formulas or execution steps were modified.
-
-**Before public release:** replace the placeholder maintainer email in `DESCRIPTION` with the real maintainer contact, and verify that the specified package license is authorized.
