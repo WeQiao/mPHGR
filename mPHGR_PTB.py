@@ -180,7 +180,7 @@ def calculate_score(file_path_control, file_path_data, file_path_P):
     s_k_sorted = s_k[sorted_indices, :]
 
     top_5_percent = int(0.05 * n)
-    score = np.sum(s_k_sorted[:top_5_percent, 1])
+    score = np.mean(s_k_sorted[:top_5_percent, 1])
 
     return score, s_k_sorted[:top_5_percent, 0]
 
