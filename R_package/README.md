@@ -27,7 +27,7 @@ reticulate::use_python("C:/path/to/python.exe", required = TRUE)
 
 ## Data format
 
-Put `control.txt` and the individual test files in the same folder. Inputs must already be preprocessed; they are tab-separated matrices with **taxa in rows and samples in columns**. Files are selected using the supplied prefix followed by a numeric ID, e.g. `test2_data1.txt`, `test2_data2.txt`, etc.
+Put `control.txt` and the individual test files in the same folder. Inputs must be tab-separated matrices with **taxa in rows and samples in columns**. Files are selected using the supplied prefix followed by a numeric ID, e.g. `test2_data1.txt`, `test2_data2.txt`, etc.
 
 ## Run
 
