@@ -161,7 +161,7 @@ Both the Python implementation and the R package save two files in the specified
 
 
 ## Citation
-Qiao Wei, Jiayuan Zhong, et al. mPHGR: microbiome personalized hyper-graph ranking for identifying critical states of complex biological processes at an individual level
+Qiao Wei, Jiayuan Zhong, et al. mPHGR: microbiome personalized hyper-graph ranking for identifying critical states of complex biological processes
 ## Contact
 Qiao Wei: scut_wq@163.com
 
