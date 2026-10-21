@@ -207,7 +207,7 @@ def run_mphgr(data_dir, data_type, d, Q, prefix_data, stages=None):
         labely = list(stage_scores.values())
         fig, ax = plt.subplots(figsize=(10, 6))
         pic = ax.plot(labelx, labely, marker='o')
-        ax.set_title('The Scores for Gastric Cancer')
+        # ax.set_title('The Scores for Gastric Cancer')
         ax.set_xlabel('Stage')
         ax.set_ylabel('Score')
         plt.show()
