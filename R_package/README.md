@@ -4,11 +4,9 @@ The `mPHGR` R package provides one function, `mphgr_run()`, which calls the **un
 
 ## Install
 
-After uploading this `R_package/` directory to the existing GitHub repository:
-
 ```r
 install.packages(c("remotes", "reticulate"))
-remotes::install_github("WeQiao/mPHGR", subdir = "R_package", ref = "v1.0.0")
+remotes::install_github("WeQiao/mPHGR", subdir = "R_package",  upgrade = "never")
 library(mPHGR)
 ```
 
