@@ -11,7 +11,7 @@ mphgr_run(data_dir, data_type, d, Q, prefix_data, stages = NULL)
 \arguments{
 \item{data_dir}{Folder containing \file{control.txt} and numbered test files.}
 \item{data_type}{\code{"1"} for longitudinal samples; \code{"2"} for stage-grouped samples.}
-\item{d}{Minimum association count with \code{abs(PCC) >= 0.3}.}
+\item{d}{Parameter d.}
 \item{Q}{Differential correlation cutoff for hyper-graph construction.}
 \item{prefix_data}{Test file prefix, e.g. \code{"test2_data"} for \file{test2_data1.txt}.}
 \item{stages}{Named list of stages and numeric file IDs for mode \code{"2"}. The first stage is the normalization reference.}
