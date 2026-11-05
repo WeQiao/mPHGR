@@ -1,6 +1,6 @@
 Package: mPHGR
 Type: Package
-Title: Microbiome Personalized Hyper-Graph Ranking via Python
+Title: Microbiome Personalized Hyper-Graph Ranking 
 Version: 1.0.0
 Authors@R: person(given = "mPHGR", family = "Contributors", email = "scut_wq@163.com", role = c("aut", "cre"))
 Description: Provides a single R function for running the supplied Python
